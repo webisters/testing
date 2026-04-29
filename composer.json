@@ -1,0 +1,62 @@
+{
+    "name": "webisters/testing",
+    "description": "Webisters Testing Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "test",
+        "testing",
+        "unit",
+        "phpunit",
+        "testcase",
+        "mvc"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/testing",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/testing/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/testing",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "webisters/mvc": "*",
+        "phpunit/phpunit": "~11.5.50"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Testing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Testing\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
